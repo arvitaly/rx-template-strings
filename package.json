@@ -1,0 +1,33 @@
+{
+  "name": "rx-template-strings",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && tslint --project tsconfig.json && jest --verbose --coverage",
+    "watch:test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvitaly/rx-template-strings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvitaly/rx-template-strings/issues"
+  },
+  "homepage": "https://github.com/arvitaly/rx-template-strings#readme",
+  "jest": {},
+  "devDependencies": {
+    "@types/jest": "^23.0.0",
+    "coveralls": "^3.0.1",
+    "jest": "^23.1.0",
+    "rxjs": "^6.2.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
+  },
+  "peerDependencies": {
+    "rxjs": "^6.2.0"
+  }
+}
