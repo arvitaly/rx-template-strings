@@ -1,6 +1,6 @@
 {
   "name": "rx-template-strings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Util for create Observable of string from ES6-TemplateStrings. The keys can be Observable or any.",
   "main": "index.js",
   "scripts": {
