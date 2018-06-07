@@ -5,7 +5,7 @@ describe("fromTemplateString tests", () => {
     it("hello, world", () => {
         const name = new BehaviorSubject("World");
         const greeting = new BehaviorSubject("Hello");
-        const obs = fromTemplateStrings`${greeting}, ${name}-${name}!`;
+        const obs = fromTemplateStrings`${greeting}, ${name}-${name}${"!"}`;
         const subcriber = jest.fn();
         obs.subscribe(subcriber);
         expect(subcriber.mock.calls.length).toBe(1);

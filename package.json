@@ -1,7 +1,7 @@
 {
   "name": "rx-template-strings",
   "version": "0.0.1",
-  "description": "",
+  "description": "Util for create Observable of string from ES6-TemplateStrings. The keys can be Observable or any.",
   "main": "index.js",
   "scripts": {
     "test": "tsc && tslint --project tsconfig.json && jest --verbose --coverage",
@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/arvitaly/rx-template-strings.git"
   },
-  "keywords": [],
+  "keywords": [
+    "rxjs",
+    "template strings"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
